@@ -1,0 +1,25 @@
+# EpicWorld ana yapılandırma dosyası
+# Arterus kasabasındaki temel sistem ayarlarını içerir
+
+settings:
+  town_name: "Arterus"
+  max_npcs: 15
+  language: "tr_TR"
+  debug_mode: false
+
+lord:
+  name: "hasbinapp911"
+  title: "Lord"
+  start_respect: 100
+
+mimar:
+  name: "eneSein"
+  title: "Koca Mimar"
+  start_respect: 100
+
+respect:
+  max: 100
+  min: -100
+  rebellion_threshold: -60
+  recovery_rate: 1
+  daily_decay: 0.5
